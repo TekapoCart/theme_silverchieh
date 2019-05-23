@@ -13,13 +13,10 @@ global_settings:
       displayBanner:
         - simplicity_headerbar
         - ps_customtext
-      displayNav1:
-        - simplicity_logo
-        - ps_mainmenu
       displayNavFullWidth:
-        - ps_imageslider
         - ps_banner
       displayHome:
+        - ps_featuredproducts
         - simplicity_cmsblock
 
   image_types:
