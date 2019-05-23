@@ -1,0 +1,54 @@
+parent: simplicity
+name: theme_silverchieh
+display_name: theme silverchieh
+version: 1.0.0
+assets:
+  use_parent_assets: true
+
+global_settings:
+  configuration:
+    PS_IMAGE_GENERATION_METHOD: 1
+  hooks:
+    modules_to_hook:
+      displayBanner:
+        - simplicity_headerbar
+        - ps_customtext
+      displayNav1:
+        - simplicity_logo
+        - ps_mainmenu
+      displayNavFullWidth:
+        - ps_imageslider
+        - ps_banner
+      displayHome:
+        - simplicity_cmsblock
+
+  image_types:
+    small_default:
+      width: 300
+      height: 300
+      scope: [products]
+    home_default:
+      width: 500
+      height: 500
+      scope: [products]
+    large_default:
+      width: 800
+      height: 800
+      scope: [products]
+    cart_default:
+      width: 300
+      height: 300
+      scope: []
+    medium_default:
+      width: 500
+      height: 500
+      scope: []
+    category_default:
+      width: 500
+      height: 500
+      scope: []
+
+theme_settings:
+  default_layout: layout-full-width
+  layouts:
+    contact: layout-left-column
