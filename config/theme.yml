@@ -8,7 +8,6 @@ assets:
 global_settings:
   configuration:
     PS_IMAGE_GENERATION_METHOD: 1
-    SIMPLICITY_DARK_MODE: 0
 hooks:
     modules_to_hook:
       displayBanner:
