@@ -1,7 +1,7 @@
 parent: simplicity
 name: theme_silverchieh
 display_name: theme silverchieh
-version: 1.0.0
+version: 1.0.1
 assets:
   use_parent_assets: true
 

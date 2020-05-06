@@ -1,2 +1,4 @@
-.idea/*
+.idea/
+
 _dev/node_modules/*
+_dev/package-lock.json
